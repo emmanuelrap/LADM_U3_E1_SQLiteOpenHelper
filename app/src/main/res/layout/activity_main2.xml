@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
- <EditText
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:hint="Nombre"
-     android:id="@+id/etNombre"></EditText>
-
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"></EditText>
     <EditText
         android:id="@+id/etDomicilio"
         android:layout_width="match_parent"
@@ -26,15 +25,16 @@
         android:hint="Telefono"></EditText>
 
     <Button
-        android:id="@+id/btInsertar"
+        android:id="@+id/btnActualizar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Insertar"></Button>
+        android:text="Actualizar"></Button>
 
-    <ListView
-        android:padding="40dp"
-        android:layout_width="match_parent"
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnRegresar"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:id="@+id/lvLista"></ListView>
+        android:text="Regresar"></Button>
 
 </LinearLayout>
